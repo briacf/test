@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '12.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*'
+  s.source_files = 'Source/**/*.js'
 
   s.frameworks = 'UIKit', 'CoreText'
   s.module_name = 'test'
