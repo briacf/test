@@ -1,0 +1,4 @@
+allprojects {
+    group = 'com.briacf.test'
+    version = '0.0.4'
+}
